@@ -45,7 +45,7 @@ There are two phases: Render Phase and Commit Phase
 ### Render Phase (Processing)
 
 <p align="center">
-  <img src="imgs/Screenshot 2023-01-15 at 5.51.15 PM.png" width="350" title="Render Phase">
+  <img src="imgs/Screenshot 2023-01-15 at 5.51.15 PM.png" title="Render Phase">
 </p>
 
 ### Commit Phase (Committing)
