@@ -5,8 +5,8 @@ Here i just tried to mimic the React.
 
 # What is the React Fiber:
 
-Fiber is just plain JavaScript Object
-which have some properties to manage the links b/w the other fibers
+React Fiber is just a plain JavaScript Object.
+which have some properties to manage the links b/w the other react-fiber objects
 
 # What is the React Fiber Tree:
 
@@ -21,7 +21,7 @@ Before React 16, they directly generate all the DOM in synchronous fashion after
 
 So Later on (React >= 16) FaceBook Developer, developed some cool stuff. which is called React-Fiber
 And each React-Fiber consider as one unit of work at a given point of time.
-So for better understanding, you can think of this is an Object which get constructed for each dom node in asynchronous fashion so that it not gonna block the CALL-STACK. COOL Right?
+So for better understanding, you can think of this is an Object which get constructed for each dom node in asynchronous fashion so that it's not gonna block the CALL-STACK. ......Ahhhh .. COOL Right?
 
 # Challenges:
 
