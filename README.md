@@ -1,6 +1,6 @@
 # Apna-React
 
-It's My Own React Implementation
+It's My Own React Implementation.
 Here i just tried to mimic the React.
 So basically in React-16 onward, they have changed the react reconciliation process by using
 the React-Fiber Object. I just tried to write the React-Fiber reconciliation process.
