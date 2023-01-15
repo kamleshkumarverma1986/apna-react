@@ -31,7 +31,7 @@ So for better understanding, you can think of this is an Object which get constr
 But Question here is, How we can construct this React-Fiber asynchronously?
 There is no Magic here.. All is JUST JavaScript.
 
-There is something called requestIdleCallback.
+There is something called requestIdleCallback.\
 Read more about it https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback
 
 requestIdleCallback method queues a function to be called during a browser's idle periods.
