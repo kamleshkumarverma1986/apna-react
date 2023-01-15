@@ -40,4 +40,6 @@ they are also doing the same thing but that scheduling packages provide more con
 
 # React-Fiber reconciliation process
 
-There are two phases ## Render Phase (Processing) ## Commit Phase (Committing)
+There are two phases 
+## Render Phase (Processing)
+## Commit Phase (Committing)
