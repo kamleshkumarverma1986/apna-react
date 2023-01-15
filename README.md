@@ -32,6 +32,8 @@ But Question here is, How we can construct this React-Fiber asynchronously?
 There is no Magic here.. All is JUST JavaScript.
 
 There is something called requestIdleCallback.
+Read more about it https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback
+
 requestIdleCallback method queues a function to be called during a browser's idle periods.
 [NOTE: But React uses something different other than this. they uses scheduling packages. internally
 they are also doing the same thing but that scheduling packages provide more control over the time]
