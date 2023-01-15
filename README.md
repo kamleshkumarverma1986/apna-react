@@ -37,3 +37,7 @@ Read more about it https://developer.mozilla.org/en-US/docs/Web/API/Window/reque
 requestIdleCallback method queues a function to be called during a browser's idle periods.
 [NOTE: But React uses something different other than this. they uses scheduling packages. internally
 they are also doing the same thing but that scheduling packages provide more control over the time]
+
+# React-Fiber reconciliation process
+
+There are two phases ## Render Phase (Processing) ## Commit Phase (Committing)
