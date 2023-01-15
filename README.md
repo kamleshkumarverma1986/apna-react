@@ -1,6 +1,6 @@
-# apna-react
+# Apna-React
 
-It's My Own React
+It's My Own React Implementation
 Here i just tried to mimic the React.
 
 # What is the React Fiber:
@@ -8,7 +8,8 @@ Here i just tried to mimic the React.
 Fiber is just plain JavaScript Object
 which have some properties to manage the links b/w the other fibers
 
-#What is the React Fiber Tree:
+# What is the React Fiber Tree:
+
 It's again React Fiber Object (JS Object) which have some properties
 (like: child, parent, alternate) which denote to other fibers and so on.
 So basically React Fiber have some hierarchy (like child, parent, sibling)
