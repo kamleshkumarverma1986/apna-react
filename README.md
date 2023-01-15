@@ -24,7 +24,7 @@ Before React 16, they directly generate all the DOM in synchronous fashion after
 
 So Later on (React >= 16) FaceBook Developer, developed some cool stuff.
 which is called React-Fiber And each React-Fiber consider as one unit of work at a given point of time.
-So for better understanding, you can think of this is an Object which get constructed for each dom node in asynchronous fashion so that it's not gonna block the CALL-STACK. ......Ahhhh .. COOL Right?
+So for better understanding, you can think of this is an Object which get constructed for each DOM node in asynchronous fashion so that it's not gonna block the CALL-STACK. ......Ahhhh .. COOL Right?
 
 # Challenges:
 
@@ -34,4 +34,4 @@ There is no Magic here.. All is JUST JavaScript.
 There is something called requestIdleCallback.
 requestIdleCallback method queues a function to be called during a browser's idle periods.
 [NOTE: But React uses something different other than this. they uses scheduling packages. internally
-they are also doing the same thing but that scheduling packages provide more control]
+they are also doing the same thing but that scheduling packages provide more control over the time]
