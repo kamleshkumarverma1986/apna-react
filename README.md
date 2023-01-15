@@ -43,9 +43,13 @@ they are also doing the same thing but that scheduling packages provide more con
 There are two phases: Render Phase and Commit Phase
 
 ### Render Phase (Processing)
-Render-Phase is asynchronous. One unit of task at a time.
+
 <p align="center">
   <img src="imgs/Screenshot 2023-01-15 at 5.51.15 PM.png" title="Render Phase">
 </p>
 
 ### Commit Phase (Committing)
+
+<p align="center">
+  <img src="imgs/Screenshot 2023-01-15 at 6.15.39 PM.png" title="Render Phase">
+</p>
