@@ -1,0 +1,14 @@
+.app {
+    background-color: bisque;
+    padding: 5px;
+}
+
+.search {
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.counter {
+    background-color: darkseagreen;
+    padding: 5px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "apna-react",
+  "version": "1.0.0",
+  "description": "This is a my custom react",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "kamlesh verma",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "parcel": "^2.8.2"
+  }
+}
