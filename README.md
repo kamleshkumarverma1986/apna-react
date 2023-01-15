@@ -57,5 +57,5 @@ This is synchronous process
 </p>
 
 And whenever there are any changes occured by React (through props or state changes) than again these both process begin. But this time in Render-Phase, they will compare the currentRoot nodes (which is already rendered in your browser) with wipRoot nodes (on-going changes) by using alternate
-( wipRoot.alternate -> currentRoot  ) properties and find those React-Fiber which have update changes and keep the "UPDATE" tag. \
+( wipRoot.alternate -> currentRoot  ) properties and it will find all those React-Fibers which have the changes and keep the "UPDATE" tag with those nodes. \
 And now in Commit Phase, it will just update all the DOM which have the "UPDATE" tags.
