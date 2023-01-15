@@ -43,13 +43,19 @@ they are also doing the same thing but that scheduling packages provide more con
 There are two phases: Render Phase and Commit Phase
 
 ### Render Phase (Processing)
+This is asynchronous process
 
 <p align="center">
   <img src="imgs/Screenshot 2023-01-15 at 5.51.15 PM.png" title="Render Phase">
 </p>
 
 ### Commit Phase (Committing)
+This is synchronous process
 
 <p align="center">
   <img src="imgs/Screenshot 2023-01-15 at 6.15.39 PM.png" title="Render Phase">
 </p>
+
+And whenever there are any changes occured by React (through props or state changes) than again these both process begin. But this time in Render-Phase, they will compare the currentRoot nodes (which is already rendered in your browser) with wipRoot nodes (on-going changes) by using alternate
+( wipRoot.alternate -> currentRoot  ) properties and find those React-Fiber which have update changes and keep the "UPDATE" tag. \
+And now in Commit Phase, it will just update all the DOM which have the "UPDATE" tags.
