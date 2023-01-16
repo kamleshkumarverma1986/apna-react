@@ -65,5 +65,5 @@ And now in Commit Phase, it will just update all the DOM which have the "UPDATE"
 
 https://youtu.be/0ympFIwQFJw \
 https://pomb.us/ \
-https://blog.logrocket.com/deep-dive-react-fiber/ \
+https://blog.logrocket.com/deep-dive-react-fiber/
 
