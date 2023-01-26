@@ -16,7 +16,7 @@ which have some properties to manage the links b/w the other react-fiber objects
 It's again React Fiber Object (JS Object) which have some properties
 (like: child, parent, alternate) which denote to other fibers and so on.
 So basically React Fiber have some hierarchy (like child, parent, sibling)
-and that hierarchy is called Fiber Tree.
+and that hierarchy is called Fiber Tree. And this Fiber Tree is known as Virtual DOM
 
 # History:
 
